@@ -1,31 +1,88 @@
 @media screen and (max-width:600px) {
-    nav{
+    
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav {
         flex-direction: column;
     }
+
     .nav-section-1 #menu-icon {
         visibility: visible;
     }
+
     .Title-section {
         font-size: 34px;
 
     }
+
     .nav-section-1 img {
         width: 35px;
         height: 40px;
         flex-shrink: 0;
+        
 
     }
+
     .nav-section-2 {
         visibility: hidden;
     }
+
     .nav-section-3 h1 {
         font-size: 22px;
         padding-top: 20px;
         padding-bottom: 10px;
 
     }
+
     .nav-section-3 p {
         font-size: 14px;
     }
+
+    .nav-section-3 {
+        flex-direction: column;
+        max-width: 100%;
+        background-size: cover;
+        min-height: 450px;
+        width: 350px;
+        margin-top: -30px;
+        object-fit: cover;
+
+    }
+    .nav-section-4 .input-btn {
+        font-size: 14px;
+        padding: 16px 14px 16px 16px;
+        margin-right: 5px;
+        border-radius: 5px;
+        
+        
+        
     
+    }
+    .nav-section-3 p {
+        padding-bottom: 20px;
+
+    }
+    .nav-section-4 .btn-primary {
+        
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+    }
+    .nav-section-4 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-section-5 {
+        height: 290px;
+
+    }
+
 }
