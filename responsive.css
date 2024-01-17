@@ -189,14 +189,19 @@
             position: relative;
             padding-left: 0;
             padding: 5px;
-            width: 600px;
+            width: 200px;
             height: 300px;
-            margin-left: -200px;
+            background-size: cover;
+            visibility: hidden;
+
+            
+            
+            
             
         }
         .hover-section {
             position: absolute;
-             margin-top: -150px;
+             margin-top: -100px;
              margin-left: -100px;
              margin-right: 0px;
              
@@ -223,8 +228,120 @@
         font-weight: 500;
         line-height: normal;
     }
+    .new-letter-section-1 {
+        
+        background-image: url(Images/Rectangle\ 8\ \(1\).png);
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    .btn-primary-1 {
+        padding: 20px 90px 16px 90px;
+        text-align: center;
+
+    }
+    /* recent trip section */
+    .recent-trip-section img {
+        width: 96%;
+        
+    }
+
+    /* perfect section */
+    .perfect-section {
+        flex-direction: column;
+    }
+    .video-section {
+        width:340px;
+        height:234px;
+        
+    }
+    .section-7 h1 {
+        font-size: 20px;
+        white-space: nowrap;
+
+    }
+    .section-10 {
+        background-image: url(Images/image/1.png);
+        width: 335px;
+        background-size: cover;
+        height:500px ;
+        position: relative;
+        border-radius: 16px;
+        margin-bottom: 100px;
+        background-position: center center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+
+        
     
-}
+    }
+    .mini-section-1 {
+        /* visibility: hidden; */
+        width: 300px;
+        height: 300px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin-left:5%;
+        position: absolute;
+        margin-top: 23vh;
+        margin-right: -20px;
+        
+    }
+    .mini-section-image-1 {
+        padding: 15px;
+    }
+    /* .logo-1 {
+        display: block;
+    } */
+    .mini-section-image-1 p {
+        padding-left:1px;
+        padding-right: 3px;
+    
+    
+    }
+    .section-10 h1 {
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 15px !important;
+    }
+    .section-10 p,h2{
+        padding-left: 15px !important;
+    }
+    .mini-section-image-1 {
+        
+
+    }
+    .section-10 p {
+        font-size: 14px;
+    }
+    .section-10 h2 {
+        font-size: 16px;
+
+    }
+    .section-10 button {
+        padding-top: 20px !important;
+        margin-top: 15px !important;
+        margin-left: 10px !important;
+    }
+    .deal-section h1 {
+        font-size: 20px;
+
+    }
+    .deal-section p {
+        font-size: 14px;
+    }
+    .flex-1 {
+        flex-direction: column;
+    }
+
+
+    
+
+    }
+
+   
+
         
     
 
