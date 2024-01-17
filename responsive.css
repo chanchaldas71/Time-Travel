@@ -334,6 +334,19 @@
     .flex-1 {
         flex-direction: column;
     }
+    .flex-2 {
+        margin-left:0px;
+        height: 300px;
+        width: 340px;
+    }
+    .flex-2 h1 {
+        font-size: 20px;
+
+    }
+    .flex-2 p {
+        font-size: 14px;
+
+    }
 
 
     
