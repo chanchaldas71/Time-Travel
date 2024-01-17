@@ -165,6 +165,69 @@
     height: 200px;
     }
 
+    @media screen and (max-width:600px) {
+        .new-letter
+        {
+            flex-direction: column;
+        }
+        .input-btn-1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 20px 90px 16px 20px;
+            border-radius: 8px;
+            background: rgba(19, 19, 24, 0.05);
+             border: none;
+        }
+        .input-btn-2 {
+            border: none;
+            background: rgba(19, 19, 24, 0.05);
+            padding: 20px 90px 16px 20px;
+             margin-bottom: 20px;
+
+        }
+        .new-letter-section-1 img{
+            position: relative;
+            padding-left: 0;
+            padding: 5px;
+            width: 600px;
+            height: 300px;
+            margin-left: -200px;
+            
+        }
+        .hover-section {
+            position: absolute;
+             margin-top: -150px;
+             margin-left: -100px;
+             margin-right: 0px;
+             
+             border-radius: 16px;
+             background: #FF5400;
+             padding-top: 15px;
+             padding-right: 20px;
+             text-align: center;
+             padding-left: 30px;
+             padding-bottom: 20px;
+             transform: rotate(-19.628deg);
+             color: white;
+
+}
+
+        }
+@media screen and (max-width:600px) {
+
+    .hover-section-1 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+}
+        
+    
+
     /* .image-container {}
 
     .flex-1 {
@@ -186,4 +249,5 @@
     } 
 
 
-    /* I work to build this project take 26+ hours..I have to learn so many thing...Thank You Respected teacher !! */
+    /* I work to build this project take 26+ hours..I have to learn so many thing...Thank You Respected teacher !!  */
+    /* i got extra time Thank you */
